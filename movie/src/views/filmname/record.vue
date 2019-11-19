@@ -1,9 +1,7 @@
 <template>
-    <div class="intelligent-box">
-        <el-container class="container-box">
-            <el-col :span="24" class="zhi-box">
-                <el-col :span="24" class="zhong-box">
-                    <el-col :span="8" class="hb-box">
+    <div class="classify-box">
+        <el-row :span="24" type="flex" justify="space-around" style="flex-wrap: wrap;padding-top: 15px">
+            <el-col :span="8" class="hb-box">
                         <el-row :span="24">
                             <el-col :span="4" class="img-box">
                                 <a href="">
@@ -12,8 +10,8 @@
                             </el-col>
                             <el-col :span="18" style="padding: 5px;margin: 35px 0">
                                 <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col :span="14" class="name-box">机器总动员</el-col>
-                                    <el-col :span="8" class="year-box">2008</el-col>
+                                    <el-col :span="14" class="name-box">当幸福来敲门</el-col>
+                                    <el-col :span="8" class="year-box">2006</el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="db-box">
@@ -27,32 +25,32 @@
                                         style="margin-bottom: 6px">
                                         </el-rate>
                                         <a :href="url">豆瓣
-                                            <span>9.3</span>
+                                            <span>8.9</span>
                                         </a>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">导演：</span>
-                                        <span class="dyname-box">安德鲁·斯坦顿</span>
+                                        <span class="dyname-box">加布里尔·穆奇诺</span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">类型：</span>
-                                        <span class="dyname-box">喜剧 / 爱情 / 科幻</span>
+                                        <span class="dyname-box">剧情 / 犯罪</span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">主演：</span>
-                                        <span class="dyname-box">本·贝尔特 / 艾丽莎·奈特 / 杰夫·格尔林 / 佛莱德·威拉特 / 西格妮·韦弗</span>
+                                        <span class="dyname-box">威尔·史密斯 / 贾登·史密斯 / 坦迪·牛顿 /...</span>
                                     </el-col>
                                 </el-row>
                             </el-col>
                         </el-row>
                     </el-col>
-                    <el-col :span="8" class="hb-box">
+            <el-col :span="8" class="hb-box">
                         <el-row :span="24">
                             <el-col :span="4" class="img-box">
                                 <a href="">
@@ -61,8 +59,8 @@
                             </el-col>
                             <el-col :span="18" style="padding: 5px;margin: 35px 0">
                                 <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col :span="14" class="name-box">机器总动员</el-col>
-                                    <el-col :span="8" class="year-box">2008</el-col>
+                                    <el-col :span="14" class="name-box">当幸福来敲门</el-col>
+                                    <el-col :span="8" class="year-box">2006</el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="db-box">
@@ -76,32 +74,32 @@
                                         style="margin-bottom: 6px">
                                         </el-rate>
                                         <a :href="url">豆瓣
-                                            <span>9.3</span>
+                                            <span>8.9</span>
                                         </a>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">导演：</span>
-                                        <span class="dyname-box">安德鲁·斯坦顿</span>
+                                        <span class="dyname-box">加布里尔·穆奇诺</span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">类型：</span>
-                                        <span class="dyname-box">喜剧 / 爱情 / 科幻</span>
+                                        <span class="dyname-box">剧情 / 犯罪</span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">主演：</span>
-                                        <span class="dyname-box">本·贝尔特 / 艾丽莎·奈特 / 杰夫·格尔林 / 佛莱德·威拉特 / 西格妮·韦弗</span>
+                                        <span class="dyname-box">威尔·史密斯 / 贾登·史密斯 / 坦迪·牛顿 /...</span>
                                     </el-col>
                                 </el-row>
                             </el-col>
                         </el-row>
                     </el-col>
-                    <el-col :span="8" class="hb-box">
+            <el-col :span="8" class="hb-box">
                         <el-row :span="24">
                             <el-col :span="4" class="img-box">
                                 <a href="">
@@ -110,8 +108,8 @@
                             </el-col>
                             <el-col :span="18" style="padding: 5px;margin: 35px 0">
                                 <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col :span="14" class="name-box">机器总动员</el-col>
-                                    <el-col :span="8" class="year-box">2008</el-col>
+                                    <el-col :span="14" class="name-box">当幸福来敲门</el-col>
+                                    <el-col :span="8" class="year-box">2006</el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="db-box">
@@ -125,32 +123,32 @@
                                         style="margin-bottom: 6px">
                                         </el-rate>
                                         <a :href="url">豆瓣
-                                            <span>9.3</span>
+                                            <span>8.9</span>
                                         </a>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">导演：</span>
-                                        <span class="dyname-box">安德鲁·斯坦顿</span>
+                                        <span class="dyname-box">加布里尔·穆奇诺</span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">类型：</span>
-                                        <span class="dyname-box">喜剧 / 爱情 / 科幻</span>
+                                        <span class="dyname-box">剧情 / 犯罪</span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">主演：</span>
-                                        <span class="dyname-box">本·贝尔特 / 艾丽莎·奈特 / 杰夫·格尔林 / 佛莱德·威拉特 / 西格妮·韦弗</span>
+                                        <span class="dyname-box">威尔·史密斯 / 贾登·史密斯 / 坦迪·牛顿 /...</span>
                                     </el-col>
                                 </el-row>
                             </el-col>
                         </el-row>
                     </el-col>
-                    <el-col :span="8" class="hb-box">
+            <el-col :span="8" class="hb-box">
                         <el-row :span="24">
                             <el-col :span="4" class="img-box">
                                 <a href="">
@@ -159,8 +157,8 @@
                             </el-col>
                             <el-col :span="18" style="padding: 5px;margin: 35px 0">
                                 <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col :span="14" class="name-box">机器总动员</el-col>
-                                    <el-col :span="8" class="year-box">2008</el-col>
+                                    <el-col :span="14" class="name-box">当幸福来敲门</el-col>
+                                    <el-col :span="8" class="year-box">2006</el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="db-box">
@@ -174,32 +172,32 @@
                                         style="margin-bottom: 6px">
                                         </el-rate>
                                         <a :href="url">豆瓣
-                                            <span>9.3</span>
+                                            <span>8.9</span>
                                         </a>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">导演：</span>
-                                        <span class="dyname-box">安德鲁·斯坦顿</span>
+                                        <span class="dyname-box">加布里尔·穆奇诺</span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">类型：</span>
-                                        <span class="dyname-box">喜剧 / 爱情 / 科幻</span>
+                                        <span class="dyname-box">剧情 / 犯罪</span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">主演：</span>
-                                        <span class="dyname-box">本·贝尔特 / 艾丽莎·奈特 / 杰夫·格尔林 / 佛莱德·威拉特 / 西格妮·韦弗</span>
+                                        <span class="dyname-box">威尔·史密斯 / 贾登·史密斯 / 坦迪·牛顿 /...</span>
                                     </el-col>
                                 </el-row>
                             </el-col>
                         </el-row>
                     </el-col>
-                    <el-col :span="8" class="hb-box">
+            <el-col :span="8" class="hb-box">
                         <el-row :span="24">
                             <el-col :span="4" class="img-box">
                                 <a href="">
@@ -208,8 +206,8 @@
                             </el-col>
                             <el-col :span="18" style="padding: 5px;margin: 35px 0">
                                 <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col :span="14" class="name-box">机器总动员</el-col>
-                                    <el-col :span="8" class="year-box">2008</el-col>
+                                    <el-col :span="14" class="name-box">当幸福来敲门</el-col>
+                                    <el-col :span="8" class="year-box">2006</el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="db-box">
@@ -223,32 +221,32 @@
                                         style="margin-bottom: 6px">
                                         </el-rate>
                                         <a :href="url">豆瓣
-                                            <span>9.3</span>
+                                            <span>8.9</span>
                                         </a>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">导演：</span>
-                                        <span class="dyname-box">安德鲁·斯坦顿</span>
+                                        <span class="dyname-box">加布里尔·穆奇诺</span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">类型：</span>
-                                        <span class="dyname-box">喜剧 / 爱情 / 科幻</span>
+                                        <span class="dyname-box">剧情 / 犯罪</span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">主演：</span>
-                                        <span class="dyname-box">本·贝尔特 / 艾丽莎·奈特 / 杰夫·格尔林 / 佛莱德·威拉特 / 西格妮·韦弗</span>
+                                        <span class="dyname-box">威尔·史密斯 / 贾登·史密斯 / 坦迪·牛顿 /...</span>
                                     </el-col>
                                 </el-row>
                             </el-col>
                         </el-row>
                     </el-col>
-                    <el-col :span="8" class="hb-box">
+            <el-col :span="8" class="hb-box">
                         <el-row :span="24">
                             <el-col :span="4" class="img-box">
                                 <a href="">
@@ -257,8 +255,8 @@
                             </el-col>
                             <el-col :span="18" style="padding: 5px;margin: 35px 0">
                                 <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col :span="14" class="name-box">机器总动员</el-col>
-                                    <el-col :span="8" class="year-box">2008</el-col>
+                                    <el-col :span="14" class="name-box">当幸福来敲门</el-col>
+                                    <el-col :span="8" class="year-box">2006</el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="db-box">
@@ -272,34 +270,130 @@
                                         style="margin-bottom: 6px">
                                         </el-rate>
                                         <a :href="url">豆瓣
-                                            <span>9.3</span>
+                                            <span>8.9</span>
                                         </a>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">导演：</span>
-                                        <span class="dyname-box">安德鲁·斯坦顿</span>
+                                        <span class="dyname-box">加布里尔·穆奇诺</span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">类型：</span>
-                                        <span class="dyname-box">喜剧 / 爱情 / 科幻</span>
+                                        <span class="dyname-box">剧情 / 犯罪</span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">主演：</span>
-                                        <span class="dyname-box">本·贝尔特 / 艾丽莎·奈特 / 杰夫·格尔林 / 佛莱德·威拉特 / 西格妮·韦弗</span>
+                                        <span class="dyname-box">威尔·史密斯 / 贾登·史密斯 / 坦迪·牛顿 /...</span>
                                     </el-col>
                                 </el-row>
                             </el-col>
                         </el-row>
                     </el-col>
-                </el-col>
-            </el-col>
-        </el-container>
+            <el-col :span="8" class="hb-box">
+                        <el-row :span="24">
+                            <el-col :span="4" class="img-box">
+                                <a href="">
+                                    <img :src="src" alt="">
+                                </a>
+                            </el-col>
+                            <el-col :span="18" style="padding: 5px;margin: 35px 0">
+                                <el-row :span="24" style="margin-bottom: 6px">
+                                    <el-col :span="14" class="name-box">当幸福来敲门</el-col>
+                                    <el-col :span="8" class="year-box">2006</el-col>
+                                </el-row>
+                                <el-row :span="24" style="margin-bottom: 6px">
+                                    <el-col class="db-box">
+                                        <el-rate
+                                                v-model="value"
+                                                disabled
+                                                show-score
+                                                text-color="#ff9900"
+                                                score-template="{value}"
+                                                :max="10"
+                                        style="margin-bottom: 6px">
+                                        </el-rate>
+                                        <a :href="url">豆瓣
+                                            <span>8.9</span>
+                                        </a>
+                                    </el-col>
+                                </el-row>
+                                <el-row :span="24" style="margin-bottom: 6px">
+                                    <el-col class="dyy-box">
+                                        <span class="dy-box">导演：</span>
+                                        <span class="dyname-box">加布里尔·穆奇诺</span>
+                                    </el-col>
+                                </el-row>
+                                <el-row :span="24" style="margin-bottom: 6px">
+                                    <el-col class="dyy-box">
+                                        <span class="dy-box">类型：</span>
+                                        <span class="dyname-box">剧情 / 犯罪</span>
+                                    </el-col>
+                                </el-row>
+                                <el-row :span="24" style="margin-bottom: 6px">
+                                    <el-col class="dyy-box">
+                                        <span class="dy-box">主演：</span>
+                                        <span class="dyname-box">威尔·史密斯 / 贾登·史密斯 / 坦迪·牛顿 /...</span>
+                                    </el-col>
+                                </el-row>
+                            </el-col>
+                        </el-row>
+                    </el-col>
+            <el-col :span="8" class="hb-box">
+                        <el-row :span="24">
+                            <el-col :span="4" class="img-box">
+                                <a href="">
+                                    <img :src="src" alt="">
+                                </a>
+                            </el-col>
+                            <el-col :span="18" style="padding: 5px;margin: 35px 0">
+                                <el-row :span="24" style="margin-bottom: 6px">
+                                    <el-col :span="14" class="name-box">当幸福来敲门</el-col>
+                                    <el-col :span="8" class="year-box">2006</el-col>
+                                </el-row>
+                                <el-row :span="24" style="margin-bottom: 6px">
+                                    <el-col class="db-box">
+                                        <el-rate
+                                                v-model="value"
+                                                disabled
+                                                show-score
+                                                text-color="#ff9900"
+                                                score-template="{value}"
+                                                :max="10"
+                                        style="margin-bottom: 6px">
+                                        </el-rate>
+                                        <a :href="url">豆瓣
+                                            <span>8.9</span>
+                                        </a>
+                                    </el-col>
+                                </el-row>
+                                <el-row :span="24" style="margin-bottom: 6px">
+                                    <el-col class="dyy-box">
+                                        <span class="dy-box">导演：</span>
+                                        <span class="dyname-box">加布里尔·穆奇诺</span>
+                                    </el-col>
+                                </el-row>
+                                <el-row :span="24" style="margin-bottom: 6px">
+                                    <el-col class="dyy-box">
+                                        <span class="dy-box">类型：</span>
+                                        <span class="dyname-box">剧情 / 犯罪</span>
+                                    </el-col>
+                                </el-row>
+                                <el-row :span="24" style="margin-bottom: 6px">
+                                    <el-col class="dyy-box">
+                                        <span class="dy-box">主演：</span>
+                                        <span class="dyname-box">威尔·史密斯 / 贾登·史密斯 / 坦迪·牛顿 /...</span>
+                                    </el-col>
+                                </el-row>
+                            </el-col>
+                        </el-row>
+                    </el-col>
+        </el-row>
     </div>
 </template>
 
@@ -308,21 +402,19 @@
     // import HelloWorld from '@/components/HelloWorld.vue'
 
     export default {
-        name: 'intelligent',
+        name: 'classify',
         components: {
             // HelloWorld
         },
         data(){
             return {
-                activeIndex: '1',
-                src:'http://dianying.fm/media/poster/213/2131459.jpg',
-                url: 'http://movie.douban.com/subject/2131459/',
-                value:9.3,
+                src:'http://dianying.fm/media/poster/184/1849031.jpg',
+                url:'http://movie.douban.com/subject/1849031/',
+                value:8.9,
             }
         },
         methods: {
-            handleSelect() {
-            }
+
         }
     }
 </script>
@@ -395,4 +487,5 @@
     .dyname-box{
         color: #888888;
     }
+
 </style>

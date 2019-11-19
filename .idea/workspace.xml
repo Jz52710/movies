@@ -1,0 +1,1528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc31a03a-ed02-4922-becd-579e9e5d1542" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/movie/src/views/channel/channel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/src/views/filmname/animation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/src/views/filmname/comedy.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/src/views/filmname/crime.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/src/views/filmname/inspiration.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/src/views/filmname/love.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/src/views/filmname/record.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/src/views/filmname/science.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/src/views/filmname/suspense.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/src/views/filmname/thriller.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/src/views/filmname/war.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/src/views/logon/logon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/src/views/middle/middle.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/movie/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/src/assets/bj.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/assets/bj.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/src/components/header/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/components/header/header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/src/views/classify/classify.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/views/classify/classify.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/src/views/hot/hot.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/views/hot/hot.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/src/views/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/views/index/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/src/views/intelligent/intelligent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/views/intelligent/intelligent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/src/views/login/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/views/login/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/src/views/ranking/ranking.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/views/ranking/ranking.vue" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movie/src/router/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="183" column="9" selection-start-line="183" selection-start-column="9" selection-end-line="183" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#786#3014#0" />
+                <element signature="e#1115#2762#0" />
+                <element signature="e#3347#4994#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movie/src/views/index/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="110" column="32" lean-forward="true" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#el-header#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#style#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-row#0;n#el-aside#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#el-row#0;n#el-aside#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#style#0;n#el-menu#0;n#el-row#0;n#el-col#0;n#el-row#0;n#el-aside#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#el-menu#0;n#el-row#0;n#el-col#0;n#el-row#0;n#el-aside#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#style#0;n#router-link#0;n#el-menu-item#0;n#el-menu#0;n#el-row#0;n#el-col#0;n#el-row#0;n#el-aside#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#router-link#0;n#el-menu-item#1;n#el-menu#0;n#el-row#0;n#el-col#0;n#el-row#0;n#el-aside#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#router-link#0;n#el-menu-item#2;n#el-menu#0;n#el-row#0;n#el-col#0;n#el-row#0;n#el-aside#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#router-link#0;n#el-menu-item#3;n#el-menu#0;n#el-row#0;n#el-col#0;n#el-row#0;n#el-aside#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#el-row#1;n#el-aside#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#style#0;n#el-main#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#el-card#0;n#el-main#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#2;n#el-card#0;n#el-main#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#3;n#el-card#0;n#el-main#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#4;n#el-card#0;n#el-main#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#5;n#el-card#0;n#el-main#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#6;n#el-card#0;n#el-main#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#style#0;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#span#1;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/movie/src/views/channel/channel.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="123" column="22" lean-forward="true" selection-start-line="123" selection-start-column="22" selection-end-line="123" selection-end-column="22" />
+              <folding>
+                <element signature="n#style#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#el-header#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#style#0;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#0;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#1;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#2;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#3;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#4;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#5;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#6;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#7;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#8;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#9;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#10;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#style#0;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#span#1;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>el-main</find>
+      <find>box-card</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/movie/src/views/action/action.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/fiction.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/plot.vue" />
+        <option value="$PROJECT_DIR$/movie/src/components/aside/aside.vue" />
+        <option value="$PROJECT_DIR$/movie/src/App.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/intelligent/intelligent.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/classify/classify.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/action.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/war.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/science.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/suspense.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/comedy.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/love.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/inspiration.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/animation.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/thriller.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/crime.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/record.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/ranking/ranking.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/hot/hot.vue" />
+        <option value="$PROJECT_DIR$/movie/public/index.html" />
+        <option value="$PROJECT_DIR$/movie/src/views/login/login.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/logon/logon.vue" />
+        <option value="$PROJECT_DIR$/movie/src/components/header/header.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/index/index.vue" />
+        <option value="$PROJECT_DIR$/movie/src/router/index.js" />
+        <option value="$PROJECT_DIR$/movie/src/views/middle/middle.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/channel/channel.vue" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/.idea/movies.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="movies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+              <item name="movie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+              <item name="movie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+              <item name="movie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc31a03a-ed02-4922-becd-579e9e5d1542" name="Default Changelist" comment="" />
+      <created>1574042303918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574042303918</updated>
+      <workItem from="1574042308179" duration="23295000" />
+      <workItem from="1574084840999" duration="4440000" />
+      <workItem from="1574123723369" duration="22377000" />
+      <workItem from="1574166002188" duration="22860000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="72972000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/movie/src/views/action/action.vue" />
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/plot.vue" />
+    <entry file="file://$PROJECT_DIR$/movie/src/components/aside/aside.vue" />
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/action.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="421" column="4" lean-forward="true" selection-start-line="421" selection-start-column="4" selection-end-line="488" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/war.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="420" lean-forward="true" selection-start-line="420" selection-end-line="490" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/suspense.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="420" selection-start-line="420" selection-end-line="490" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/comedy.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="420" selection-start-line="420" selection-end-line="490" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/love.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="420" selection-start-line="420" selection-end-line="490" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/inspiration.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="420" selection-start-line="420" selection-end-line="490" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/thriller.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="420" selection-start-line="420" selection-end-line="490" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/science.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="420" selection-start-line="420" selection-end-line="490" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/crime.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="420" selection-start-line="420" selection-end-line="490" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/record.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="395" column="17" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="395" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/Home.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/components/HelloWorld.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/hot/hot.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="460" column="15" selection-start-line="460" selection-start-column="15" selection-end-line="460" selection-end-column="15" />
+          <folding>
+            <element signature="n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#6;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#6;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#6;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#7;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#7;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#7;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/animation.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="420" selection-start-line="420" selection-end-line="490" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#0;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#2;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#3;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#4;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#5;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#6;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#7;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/intelligent/intelligent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding>
+            <element signature="n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/classify/classify.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/ranking/ranking.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="447" column="23" selection-start-line="447" selection-start-column="23" selection-end-line="447" selection-end-column="23" />
+          <folding>
+            <element signature="n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#1;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#2;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#3;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#4;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#5;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#6;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#6;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#6;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#6;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#6;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#6;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#6;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#7;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#7;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-rate#0;n#el-col#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#7;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#7;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#7;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#7;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#7;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/login/login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-col#0;n#el-row#0;n#el-col#0;n#el-row#1;n#el-card#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#1;n#el-card#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#2;n#el-row#0;n#el-col#0;n#el-row#1;n#el-card#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-col#3;n#el-row#0;n#el-col#0;n#el-row#1;n#el-card#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="e#1320#1937#0" />
+            <element signature="e#1955#2483#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/logon/logon.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="133" column="25" lean-forward="true" selection-start-line="133" selection-start-column="25" selection-end-line="133" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/About.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/components/header/header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="53" column="33" lean-forward="true" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#el-menu#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#router-link#0;n#el-menu-item#0;n#el-menu#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#router-link#0;n#el-menu-item#1;n#el-menu#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#2;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="183" column="9" selection-start-line="183" selection-start-column="9" selection-end-line="183" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#786#3014#0" />
+            <element signature="e#1115#2762#0" />
+            <element signature="e#3347#4994#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/middle/middle.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-header#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#span#1;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/index/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="110" column="32" lean-forward="true" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-header#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-aside#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-row#0;n#el-aside#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-menu#0;n#el-row#0;n#el-col#0;n#el-row#0;n#el-aside#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-menu#0;n#el-row#0;n#el-col#0;n#el-row#0;n#el-aside#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#router-link#0;n#el-menu-item#0;n#el-menu#0;n#el-row#0;n#el-col#0;n#el-row#0;n#el-aside#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#router-link#0;n#el-menu-item#1;n#el-menu#0;n#el-row#0;n#el-col#0;n#el-row#0;n#el-aside#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#router-link#0;n#el-menu-item#2;n#el-menu#0;n#el-row#0;n#el-col#0;n#el-row#0;n#el-aside#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#router-link#0;n#el-menu-item#3;n#el-menu#0;n#el-row#0;n#el-col#0;n#el-row#0;n#el-aside#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-row#1;n#el-aside#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-main#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#el-card#0;n#el-main#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#2;n#el-card#0;n#el-main#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#3;n#el-card#0;n#el-main#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#4;n#el-card#0;n#el-main#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#5;n#el-card#0;n#el-main#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#6;n#el-card#0;n#el-main#0;n#el-container#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#span#1;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/channel/channel.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="123" column="22" lean-forward="true" selection-start-line="123" selection-start-column="22" selection-end-line="123" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-header#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#1;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#2;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#3;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#4;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#5;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#6;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#7;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#8;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#9;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#10;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#span#1;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

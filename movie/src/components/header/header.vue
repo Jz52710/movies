@@ -4,37 +4,39 @@
             <el-col :span="4" class="left-box">
                 iMovies
             </el-col>
-            <el-col :span="6" class="right-box">
-                <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect" background-color="#e3ebec" active-text-color="#409EFF" style="display:flex;">
+            <el-col :span="20" class="right-box">
+                <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect" background-color="#F9F9F9" active-text-color="#409EFF" style="display:flex;">
                     <el-menu-item index="1">
-                        <router-link :to="{name:'intelligent'}" tag="div" style="width: 96px;">
-                            智能推荐
+                        <router-link :to="{name:'index'}" tag="div" style="width: 96px;">
+                            首页
                         </router-link>
                     </el-menu-item>
                     <el-menu-item index="2">
-                        <router-link :to="{name:'classify'}" tag="div" style="width: 96px;">
-                            分类
+                        <router-link :to="{name:'channel'}" tag="div" style="width: 96px;">
+                            频道
                         </router-link>
                     </el-menu-item>
-                    <el-menu-item index="3">
-                        <router-link :to="{name:'ranking'}" tag="div" style="width: 96px;">
-                            TOP250
-                        </router-link>
-                    </el-menu-item>
-                    <el-menu-item index="4">
-                        <router-link :to="{name:'hot'}" tag="div" style="width: 96px;">
-                            正在热映
-                        </router-link>
-                    </el-menu-item>
-
-
                 </el-menu>
-
+                <el-col :span="8" style="display: flex">
+                    <el-col :span="12">
+                        <el-input placeholder="请输入内容" v-model="input" class="input-with-select">
+                        <el-button slot="append" icon="el-icon-search"></el-button>
+                    </el-input>
+                    </el-col>
+                    <el-col :span="2" style="margin: 0 20px 0 10px;font-size: 14px;cursor: pointer">
+                        <router-link :to="{name:'login'}" tag="div">
+                            登录
+                        </router-link>
+                    </el-col>
+                    <el-col :span="2" style="font-size: 14px;cursor: pointer">
+                        <router-link :to="{name:'logon'}" tag="div">
+                            注册
+                        </router-link>
+                    </el-col>
+                </el-col>
             </el-col>
         </el-row>
-        <el-main>
-            <router-view></router-view>
-        </el-main>
+
     </div>
 </template>
 
@@ -49,7 +51,8 @@
         },
         data(){
             return {
-                activeIndex: '1'
+                activeIndex: '1',
+                input:'',
             }
         },
         methods: {
@@ -73,24 +76,21 @@
         text-align: center;
         line-height: 60px;
     }
-    .el-main {
-        background-color: white;
-        color: #333;
-        text-align: center;
-        line-height: 160px;
-    }
     .left-box{
         font-weight: 600;
         font-size: 24px;
     }
     .right-box{
-        float: right;
         display: flex;
+        justify-content: space-between;
     }
     .el-menu--horizontal{
         border: none!important;
     }
     .el-menu-item{
         padding: 0!important;
+    }
+    .el-input__inner{
+        height: 32px!important;
     }
 </style>

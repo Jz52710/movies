@@ -9,7 +9,7 @@ const routes = [
     path: '/',
     // name: 'home',
     // component: Home
-    redirect:'/login'
+    redirect:'/index'
   },
   // {
   //   path: '/about',
@@ -25,6 +25,11 @@ const routes = [
     component:() => import('../views/login/login.vue')
   },
   {
+    path:'/logon',
+    name:'logon',
+    component:() => import('../views/logon/logon.vue')
+  },
+  {
     path:'/index',
     name:'index',
     redirect:'/index/intelligent',
@@ -38,7 +43,65 @@ const routes = [
       {
         path:'classify',
         name:'classify',
-        component:() =>import('../views/classify/classify.vue')
+        redirect:'/index/classify/action',
+        component:() =>import('../views/classify/classify.vue'),
+        children: [
+          {
+            path:'action',
+            name:'action',
+            component:() =>import('../views/filmname/action.vue')
+          },
+            {
+            path:'war',
+            name:'war',
+            component:() =>import('../views/filmname/war.vue')
+          },
+            {
+            path:'science',
+            name:'science',
+            component:() =>import('../views/filmname/science.vue')
+          },
+            {
+            path:'suspense',
+            name:'suspense',
+            component:() =>import('../views/filmname/suspense.vue')
+          },
+            {
+            path:'comedy',
+            name:'comedy',
+            component:() =>import('../views/filmname/comedy.vue')
+          },
+            {
+            path:'love',
+            name:'love',
+            component:() =>import('../views/filmname/love.vue')
+          },
+            {
+            path:'inspiration',
+            name:'inspiration',
+            component:() =>import('../views/filmname/inspiration.vue')
+          },
+            {
+            path:'animation',
+            name:'animation',
+            component:() =>import('../views/filmname/animation.vue')
+          },
+            {
+            path:'thriller',
+            name:'thriller',
+            component:() =>import('../views/filmname/thriller.vue')
+          },
+            {
+            path:'crime',
+            name:'crime',
+            component:() =>import('../views/filmname/crime.vue')
+          },
+            {
+            path:'record',
+            name:'record',
+            component:() =>import('../views/filmname/record.vue')
+          },
+        ]
       },
       {
         path:'ranking',
@@ -52,6 +115,73 @@ const routes = [
       }
     ]
 
+  },
+  {
+    path:'/channel',
+    name:'channel',
+    component:() => import('../views/channel/channel.vue'),
+  },
+  {
+    path:'/middle',
+    name:'middle',
+    component:() => import('../views/middle/middle.vue'),
+    children: [
+          {
+            path:'action',
+            name:'action',
+            component:() =>import('../views/filmname/action.vue')
+          },
+            {
+            path:'war',
+            name:'war',
+            component:() =>import('../views/filmname/war.vue')
+          },
+            {
+            path:'science',
+            name:'science',
+            component:() =>import('../views/filmname/science.vue')
+          },
+            {
+            path:'suspense',
+            name:'suspense',
+            component:() =>import('../views/filmname/suspense.vue')
+          },
+            {
+            path:'comedy',
+            name:'comedy',
+            component:() =>import('../views/filmname/comedy.vue')
+          },
+            {
+            path:'love',
+            name:'love',
+            component:() =>import('../views/filmname/love.vue')
+          },
+            {
+            path:'inspiration',
+            name:'inspiration',
+            component:() =>import('../views/filmname/inspiration.vue')
+          },
+            {
+            path:'animation',
+            name:'animation',
+            component:() =>import('../views/filmname/animation.vue')
+          },
+            {
+            path:'thriller',
+            name:'thriller',
+            component:() =>import('../views/filmname/thriller.vue')
+          },
+            {
+            path:'crime',
+            name:'crime',
+            component:() =>import('../views/filmname/crime.vue')
+          },
+            {
+            path:'record',
+            name:'record',
+            component:() =>import('../views/filmname/record.vue')
+          },
+        ]
   }
 ];
 
