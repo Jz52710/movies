@@ -5,8 +5,7 @@
                 <el-header>
                     <Header></Header>
                 </el-header>
-                <!--轮播-->
-                <el-row style="width: 1000px;margin: 0 auto">
+                <el-row style="width: 860px;margin: 0 auto">
                     <router-view></router-view>
                 </el-row>
                 <el-footer>

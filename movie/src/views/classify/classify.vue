@@ -4,7 +4,7 @@
             <el-row :span="24" style="display: flex">
                 <el-col :span="24">
                     <el-breadcrumb separator="|" class="table-box">
-                        <el-breadcrumb-item :to="{ path: 'action'} ">动作</el-breadcrumb-item>
+                        <el-breadcrumb-item :to="{ path: 'action'}">动作</el-breadcrumb-item>
                         <el-breadcrumb-item :to="{ path: 'war'}">战争</el-breadcrumb-item>
                         <el-breadcrumb-item :to="{ path: 'science'}">科幻</el-breadcrumb-item>
                         <el-breadcrumb-item :to="{ path: 'suspense'}">悬疑</el-breadcrumb-item>

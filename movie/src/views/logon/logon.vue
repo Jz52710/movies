@@ -29,7 +29,7 @@
                 </el-form>
                 <el-row :span="24">
                     <el-col :span="24" class="ty-box">注册即代表同意
-                        <a href="https://www.xinpianchang.com/aboutus/responsibility">《新片场用户协议》</a>
+                        <a href="https://www.xinpianchang.com/aboutus/responsibility">《爱电影用户协议》</a>
                     </el-col>
                 </el-row>
 

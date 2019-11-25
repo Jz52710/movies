@@ -41,7 +41,7 @@
                             </el-col>
                         </el-row>
                         <el-row>
-                            <router-view></router-view>
+                            <router-view :mysqlData="mysqlData.slice((currentPage-1)*pageSize,currentPage*pageSize)" :total="total" :currentPage="currentPage" :pageSize="pageSize" v-on:currentPage="successz($event)"></router-view>
                         </el-row>
                     </el-aside>
                     <!--右推荐-->
@@ -108,13 +108,32 @@
         },
         data(){
             return {
-                activeIndex: '1'
+                total:200,
+                currentPage:1,
+                pageSize:10,
+                activeIndex: '1',
+                mysqlData:[],
             }
         },
         methods: {
             handleSelect() {
+            },
+            successz(val){
+                this.currentPage=val;
+                this.pageSize=10;
+                this.total=200;
+                // alert(val)
             }
-        }
+        },
+        mounted(){
+            this.$axios.get('/api/information').then((data)=>{
+                // alert(data.data.data[0].score);
+                this.mysqlData = data.data.data
+            }).catch((error)=>{
+                alert(error)
+            })
+        },
+
     }
 </script>
 <style>

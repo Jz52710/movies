@@ -8,7 +8,7 @@
                                     <img :src="src" alt="">
                                 </a>
                             </el-col>
-                            <el-col :span="18" style="padding: 5px;margin: 35px 0">
+                            <el-col :span="18" style="padding: 5px;margin: 24px 0">
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col :span="14" class="name-box">星际穿越</el-col>
                                     <el-col :span="8" class="year-box">2014</el-col>
@@ -27,6 +27,12 @@
                                         <a :href="url">豆瓣
                                             <span>9.1</span>
                                         </a>
+                                    </el-col>
+                                </el-row>
+                                <el-row :span="24" style="margin-bottom: 6px">
+                                    <el-col class="dyy-box">
+                                        <span class="dy-box">语言：</span>
+                                        <span class="dyname-box">英语</span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
@@ -57,7 +63,7 @@
                                     <img :src="src" alt="">
                                 </a>
                             </el-col>
-                            <el-col :span="18" style="padding: 5px;margin: 35px 0">
+                            <el-col :span="18" style="padding: 5px;margin: 24px 0">
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col :span="14" class="name-box">星际穿越</el-col>
                                     <el-col :span="8" class="year-box">2014</el-col>
@@ -76,6 +82,12 @@
                                         <a :href="url">豆瓣
                                             <span>9.1</span>
                                         </a>
+                                    </el-col>
+                                </el-row>
+                                <el-row :span="24" style="margin-bottom: 6px">
+                                    <el-col class="dyy-box">
+                                        <span class="dy-box">语言：</span>
+                                        <span class="dyname-box">英语</span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
@@ -106,7 +118,7 @@
                                     <img :src="src" alt="">
                                 </a>
                             </el-col>
-                            <el-col :span="18" style="padding: 5px;margin: 35px 0">
+                            <el-col :span="18" style="padding: 5px;margin: 24px 0">
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col :span="14" class="name-box">星际穿越</el-col>
                                     <el-col :span="8" class="year-box">2014</el-col>
@@ -125,6 +137,12 @@
                                         <a :href="url">豆瓣
                                             <span>9.1</span>
                                         </a>
+                                    </el-col>
+                                </el-row>
+                                <el-row :span="24" style="margin-bottom: 6px">
+                                    <el-col class="dyy-box">
+                                        <span class="dy-box">语言：</span>
+                                        <span class="dyname-box">英语</span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
@@ -155,7 +173,7 @@
                                     <img :src="src" alt="">
                                 </a>
                             </el-col>
-                            <el-col :span="18" style="padding: 5px;margin: 35px 0">
+                            <el-col :span="18" style="padding: 5px;margin: 24px 0">
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col :span="14" class="name-box">星际穿越</el-col>
                                     <el-col :span="8" class="year-box">2014</el-col>
@@ -174,6 +192,12 @@
                                         <a :href="url">豆瓣
                                             <span>9.1</span>
                                         </a>
+                                    </el-col>
+                                </el-row>
+                                <el-row :span="24" style="margin-bottom: 6px">
+                                    <el-col class="dyy-box">
+                                        <span class="dy-box">语言：</span>
+                                        <span class="dyname-box">英语</span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
@@ -204,7 +228,7 @@
                                     <img :src="src" alt="">
                                 </a>
                             </el-col>
-                            <el-col :span="18" style="padding: 5px;margin: 35px 0">
+                            <el-col :span="18" style="padding: 5px;margin: 24px 0">
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col :span="14" class="name-box">星际穿越</el-col>
                                     <el-col :span="8" class="year-box">2014</el-col>
@@ -223,6 +247,12 @@
                                         <a :href="url">豆瓣
                                             <span>9.1</span>
                                         </a>
+                                    </el-col>
+                                </el-row>
+                                <el-row :span="24" style="margin-bottom: 6px">
+                                    <el-col class="dyy-box">
+                                        <span class="dy-box">语言：</span>
+                                        <span class="dyname-box">英语</span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
@@ -253,7 +283,7 @@
                                     <img :src="src" alt="">
                                 </a>
                             </el-col>
-                            <el-col :span="18" style="padding: 5px;margin: 35px 0">
+                            <el-col :span="18" style="padding: 5px;margin: 24px 0">
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col :span="14" class="name-box">星际穿越</el-col>
                                     <el-col :span="8" class="year-box">2014</el-col>
@@ -272,6 +302,12 @@
                                         <a :href="url">豆瓣
                                             <span>9.1</span>
                                         </a>
+                                    </el-col>
+                                </el-row>
+                                <el-row :span="24" style="margin-bottom: 6px">
+                                    <el-col class="dyy-box">
+                                        <span class="dy-box">语言：</span>
+                                        <span class="dyname-box">英语</span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
@@ -302,7 +338,7 @@
                                     <img :src="src" alt="">
                                 </a>
                             </el-col>
-                            <el-col :span="18" style="padding: 5px;margin: 35px 0">
+                            <el-col :span="18" style="padding: 5px;margin: 24px 0">
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col :span="14" class="name-box">星际穿越</el-col>
                                     <el-col :span="8" class="year-box">2014</el-col>
@@ -321,6 +357,12 @@
                                         <a :href="url">豆瓣
                                             <span>9.1</span>
                                         </a>
+                                    </el-col>
+                                </el-row>
+                                <el-row :span="24" style="margin-bottom: 6px">
+                                    <el-col class="dyy-box">
+                                        <span class="dy-box">语言：</span>
+                                        <span class="dyname-box">英语</span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
@@ -351,7 +393,7 @@
                                     <img :src="src" alt="">
                                 </a>
                             </el-col>
-                            <el-col :span="18" style="padding: 5px;margin: 35px 0">
+                            <el-col :span="18" style="padding: 5px;margin: 24px 0">
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col :span="14" class="name-box">星际穿越</el-col>
                                     <el-col :span="8" class="year-box">2014</el-col>
@@ -370,6 +412,12 @@
                                         <a :href="url">豆瓣
                                             <span>9.1</span>
                                         </a>
+                                    </el-col>
+                                </el-row>
+                                <el-row :span="24" style="margin-bottom: 6px">
+                                    <el-col class="dyy-box">
+                                        <span class="dy-box">语言：</span>
+                                        <span class="dyname-box">英语</span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
