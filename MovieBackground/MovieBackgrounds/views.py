@@ -4,10 +4,26 @@ from rest_framework.views import APIView,status
 from .models import UserAdmin,MovieInformation,MovieTop
 from rest_framework.renderers import JSONRenderer
 from rest_framework.response import Response
-from .serializers import MovieSerializer,MovieTopsSerializer
+from .serializers import MovieSerializer,MovieTopsSerializer,MovieUser
 import requests,json
+import pymysql
+from django.contrib.auth import authenticate,login
 
-from django.http.multipartparser import MultiPartParser
+from rest_framework.authtoken.models import Token
+
+from rest_framework.authentication import BaseAuthentication
+from rest_framework import exceptions
+#验证token
+class TokenAuth(BaseAuthentication):
+    def authenticate(self,request):
+        token = request.META.get("HTTP_AUTHENTICATION",None)
+        # print(request.META)
+        print(token)
+        if token:
+            obj = Token.objects.filter(key=token)
+            if obj:
+                return None
+        raise exceptions.AuthenticationFailed('token 异常')
 
 
 # Create your views here.
@@ -17,11 +33,12 @@ def index(request):
 #智能推荐
 class MovieInformations(APIView):
     renderer_classes = [JSONRenderer]
+    authentication_classes = [TokenAuth]
     #查询
     def get(self,request,*args,**kwargs):
         movies = MovieInformation.objects.all()
         se = MovieSerializer(movies,many=True)
-        print(se.data)
+        # print(se.data)
         return Response({'code':200,'data':se.data})
     #增加信息
     def post(self,request):
@@ -33,7 +50,6 @@ class MovieInformations(APIView):
         print(moviesser.is_valid())
         return Response(moviesser.errors,status=status.HTTP_400_BAD_REQUEST)
 
-# class MovieOneview(APIView):
     #修改
     def put(self,request,*args,**kwargs):
         moviesser = MovieSerializer(data=request.data)
@@ -56,6 +72,7 @@ class MovieInformations(APIView):
 #top100
 class MovieTops(APIView):
     renderer_classes = [JSONRenderer]
+    authentication_classes = [TokenAuth]
     # 查询
     def get(self, request, *args, **kwargs):
         movies = MovieTop.objects.all()
@@ -65,9 +82,11 @@ class MovieTops(APIView):
 #查询分类
 class MovieClassfiy(APIView):
     renderer_classes = [JSONRenderer]
+    authentication_classes = [TokenAuth]
     # 查询
-    def get(self, request, *args, **kwargs):
-        movies = MovieInformation.objects.filter(mold=request.data['mold'])
+    def post(self, request, *args, **kwargs):
+        # res = json.loads(request.body)
+        movies = MovieInformation.objects.filter(mold__contains=request.data['mold'])
         if movies:
             se = MovieSerializer(movies, many=True)
             return Response({'code': 200, 'data': se.data})
@@ -75,6 +94,7 @@ class MovieClassfiy(APIView):
 #正在热映
 class MovieHot(APIView):
     renderer_classes = [JSONRenderer]
+    authentication_classes = [TokenAuth]
     def get(self,request,*args,**kwargs):
         urls= 'https://douban-api.uieee.com/v2/movie/in_theaters'
         headers = {
@@ -103,3 +123,68 @@ class MovieHot(APIView):
             item['details'] = items['alt']#详情
             vals.append(item)
         return Response({'code':200,'data':vals})
+
+#注册
+class Logon(APIView):
+    renderer_classes = [JSONRenderer]
+    def post(self,request,*args,**kwargs):
+        connect = pymysql.connect(host='127.0.0.1',user='root',password='jz52710',db='movies' ,port=3306,charset='utf8',use_unicode=True,autocommit=True)
+        cursor = connect.cursor()
+        try:
+            cursor.execute(
+                """select * from moviebackgrounds_useradmin where username = %s""",
+                request.data['username'])
+            # 去重
+            repetition = cursor.fetchone()
+            if repetition is not None:
+                pass
+            else:
+                cursor.execute(
+                    "INSERT INTO moviebackgrounds_useradmin(username,password) VALUE (%s,%s)",
+                    (request.data['username'],
+                     request.data['password'],
+                     ))
+                connect.commit()
+        except Exception as error:
+            print(error)
+        cursor.close()  # 关游标
+        connect.close()  # 关链接
+        return Response({'code':200,'msg':'yes'})
+
+#登录
+class Login(APIView):
+    renderer_classes = [JSONRenderer]
+    def post(self,request,*args,**kwargs):
+        user = authenticate(username=request.data['username'], password=request.data['password'])
+        if user is not None and user.is_active:
+            login(request, user)
+            token = Token.objects.filter(user_id=user.id).first()
+            return Response({'msg': 'ok', 'token': token.key})
+        else:
+            return Response({'msg': 'no'})
+
+#频道
+class MovieSess(APIView):
+    renderer_classes = [JSONRenderer]
+    authentication_classes = [TokenAuth]
+    # 查询
+    def post(self, request, *args, **kwargs):
+        # res = json.loads(request.body)
+        movies = MovieInformation.objects.filter(mold__contains=request.data['mold'])
+        if movies:
+            se = MovieSerializer(movies, many=True)
+            return Response({'code': 200, 'data': se.data})
+
+#搜索
+class MovieSearch(APIView):
+    renderer_classes = [JSONRenderer]
+    authentication_classes = [TokenAuth]
+    # 查询
+    def post(self, request, *args, **kwargs):
+        # res = json.loads(request.body)
+        movies = MovieInformation.objects.filter(mname__contains=request.data['mname'])
+        if movies:
+            se = MovieSerializer(movies, many=True)
+            return Response({'code': 200,'msg':'ok', 'data': se.data})
+        else:
+            return Response({'msg':'no','data':'暂无此电影'})

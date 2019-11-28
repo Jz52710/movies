@@ -6,7 +6,7 @@
                 <span>爱电影</span>
             </el-col>
         </el-row>
-<!--        登录-->
+        <!--        登录-->
         <el-card class="login-right">
             <el-row :span="24" style="padding: 30px">
                 <p>用户登录</p>
@@ -58,7 +58,6 @@
                     <router-link :to="{name:'logon'}" tag="span">没有账号？注册</router-link>
                 </el-col>
             </el-row>
-
         </el-card>
     </div>
 </template>
@@ -94,11 +93,27 @@
             onSubmit(formName){
                 this.$refs[formName].validate((valid) => {
                     if (valid) {
-                        this.$message({
-                            message: '登录成功',
-                            type: 'success',
+                        this.$axios({
+                            method:'post',
+                            url:'api/login',
+                            data:{
+                                username:this.ruleForm.username,
+                                password:this.ruleForm.password
+                            }
+                        }).then((res)=>{
+                            if(res.data.msg==='ok'){
+                                this.$message({
+                                    message: '登录成功',
+                                    type: 'success',
+                                });
+                                localStorage.token = res.data.token;
+                                this.$store.state.flag=false;
+                                this.$router.push({name:"index"});
+                            }else {
+                                this.$message.error('登录失败');
+                                this.$store.state.flag=false;
+                            }
                         });
-                        this.$router.push({name:"index"});
                     } else {
                         this.$message.error('登录失败');
                         return false;

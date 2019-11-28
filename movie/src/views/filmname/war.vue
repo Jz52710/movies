@@ -1,447 +1,77 @@
 <template>
-    <div class="classify-box">
-        <el-row :span="24" type="flex" justify="space-around" style="flex-wrap: wrap;padding-top: 15px">
-            <el-col :span="8" class="hb-box">
+    <div class="intelligent-box">
+        <el-container class="container-box">
+            <el-col :span="24" class="zhi-box">
+                <el-col :span="24" class="zhong-box">
+                    <el-col :span="8" class="hb-box" v-for="(item,index) in mySqlData" :key="index">
                         <el-row :span="24">
                             <el-col :span="4" class="img-box">
-                                <a href="">
-                                    <img :src="src" alt="">
+                                <a :href="item.official">
+                                    <img :src="getImages(item.img)" alt="123">
                                 </a>
                             </el-col>
-                            <el-col :span="18" style="padding: 5px;margin: 24px 0">
+                            <el-col :span="18" style="padding: 5px;margin: 34px 0">
                                 <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col :span="14" class="name-box">辛德勒的名单</el-col>
-                                    <el-col :span="8" class="year-box">1993</el-col>
+                                    <a :href="item.details">
+                                    <el-col :span="14" class="name-box" v-text="item.mname" style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;"></el-col>
+                                        </a>
+                                    <el-col :span="8" class="year-box" v-text="item.years"></el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="db-box">
-                                        <el-rate
-                                                v-model="value"
-                                                disabled
-                                                show-score
-                                                text-color="#ff9900"
-                                                score-template="{value}"
-                                                :max="10"
-                                        style="margin-bottom: 6px">
-                                        </el-rate>
-                                        <a :href="url">豆瓣
-                                            <span>9.4</span>
+                                        <a :href="item.details">豆瓣
+                                            <span>{{ item.score}}</span>
                                         </a>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">语言：</span>
-                                        <span class="dyname-box">英语</span>
+                                        <span class="dyname-box" v-text="item.languages"></span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">导演：</span>
-                                        <span class="dyname-box">史蒂文·斯皮尔伯格</span>
+                                        <span class="dyname-box" v-text="item.director"></span>
                                     </el-col>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="dyy-box">
                                         <span class="dy-box">类型：</span>
-                                        <span class="dyname-box">剧情 / 历史 / 战争</span>
+                                        <span class="dyname-box" v-text="item.mold"></span>
                                     </el-col>
                                 </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">主演：</span>
-                                        <span class="dyname-box">连姆·尼森 / 本·金斯利 / 拉尔夫·费因斯 /...</span>
-                                    </el-col>
-                                </el-row>
-                            </el-col>
-                        </el-row>
-                    </el-col>
-            <el-col :span="8" class="hb-box">
-                        <el-row :span="24">
-                            <el-col :span="4" class="img-box">
-                                <a href="">
-                                    <img :src="src" alt="">
-                                </a>
-                            </el-col>
-                            <el-col :span="18" style="padding: 5px;margin: 24px 0">
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col :span="14" class="name-box">辛德勒的名单</el-col>
-                                    <el-col :span="8" class="year-box">1993</el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="db-box">
-                                        <el-rate
-                                                v-model="value"
-                                                disabled
-                                                show-score
-                                                text-color="#ff9900"
-                                                score-template="{value}"
-                                                :max="10"
-                                        style="margin-bottom: 6px">
-                                        </el-rate>
-                                        <a :href="url">豆瓣
-                                            <span>9.4</span>
-                                        </a>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">语言：</span>
-                                        <span class="dyname-box">英语</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">导演：</span>
-                                        <span class="dyname-box">史蒂文·斯皮尔伯格</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">类型：</span>
-                                        <span class="dyname-box">剧情 / 历史 / 战争</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">主演：</span>
-                                        <span class="dyname-box">连姆·尼森 / 本·金斯利 / 拉尔夫·费因斯 /...</span>
+                                <el-row :span="24" style="margin-bottom: 6px;width: 400px!important;display: flex">
+                                    <el-col class="dyy-box" style="width: 400px!important;">
+                                        <el-col :span="3" style="width: 42px!important;">
+                                            <span class="dy-box">主演：</span>
+                                        </el-col>
+                                        <el-col :span="20" style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">
+                                            <span class="dyname-box" v-text="item.act" style="width: 400px!important;"></span>
+                                        </el-col>
                                     </el-col>
                                 </el-row>
                             </el-col>
                         </el-row>
                     </el-col>
-            <el-col :span="8" class="hb-box">
-                        <el-row :span="24">
-                            <el-col :span="4" class="img-box">
-                                <a href="">
-                                    <img :src="src" alt="">
-                                </a>
-                            </el-col>
-                            <el-col :span="18" style="padding: 5px;margin: 24px 0">
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col :span="14" class="name-box">辛德勒的名单</el-col>
-                                    <el-col :span="8" class="year-box">1993</el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="db-box">
-                                        <el-rate
-                                                v-model="value"
-                                                disabled
-                                                show-score
-                                                text-color="#ff9900"
-                                                score-template="{value}"
-                                                :max="10"
-                                        style="margin-bottom: 6px">
-                                        </el-rate>
-                                        <a :href="url">豆瓣
-                                            <span>9.4</span>
-                                        </a>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">语言：</span>
-                                        <span class="dyname-box">英语</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">导演：</span>
-                                        <span class="dyname-box">史蒂文·斯皮尔伯格</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">类型：</span>
-                                        <span class="dyname-box">剧情 / 历史 / 战争</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">主演：</span>
-                                        <span class="dyname-box">连姆·尼森 / 本·金斯利 / 拉尔夫·费因斯 /...</span>
-                                    </el-col>
-                                </el-row>
-                            </el-col>
-                        </el-row>
-                    </el-col>
-            <el-col :span="8" class="hb-box">
-                        <el-row :span="24">
-                            <el-col :span="4" class="img-box">
-                                <a href="">
-                                    <img :src="src" alt="">
-                                </a>
-                            </el-col>
-                            <el-col :span="18" style="padding: 5px;margin: 24px 0">
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col :span="14" class="name-box">辛德勒的名单</el-col>
-                                    <el-col :span="8" class="year-box">1993</el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="db-box">
-                                        <el-rate
-                                                v-model="value"
-                                                disabled
-                                                show-score
-                                                text-color="#ff9900"
-                                                score-template="{value}"
-                                                :max="10"
-                                        style="margin-bottom: 6px">
-                                        </el-rate>
-                                        <a :href="url">豆瓣
-                                            <span>9.4</span>
-                                        </a>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">语言：</span>
-                                        <span class="dyname-box">英语</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">导演：</span>
-                                        <span class="dyname-box">史蒂文·斯皮尔伯格</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">类型：</span>
-                                        <span class="dyname-box">剧情 / 历史 / 战争</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">主演：</span>
-                                        <span class="dyname-box">连姆·尼森 / 本·金斯利 / 拉尔夫·费因斯 /...</span>
-                                    </el-col>
-                                </el-row>
-                            </el-col>
-                        </el-row>
-                    </el-col>
-            <el-col :span="8" class="hb-box">
-                        <el-row :span="24">
-                            <el-col :span="4" class="img-box">
-                                <a href="">
-                                    <img :src="src" alt="">
-                                </a>
-                            </el-col>
-                            <el-col :span="18" style="padding: 5px;margin: 24px 0">
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col :span="14" class="name-box">辛德勒的名单</el-col>
-                                    <el-col :span="8" class="year-box">1993</el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="db-box">
-                                        <el-rate
-                                                v-model="value"
-                                                disabled
-                                                show-score
-                                                text-color="#ff9900"
-                                                score-template="{value}"
-                                                :max="10"
-                                        style="margin-bottom: 6px">
-                                        </el-rate>
-                                        <a :href="url">豆瓣
-                                            <span>9.4</span>
-                                        </a>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">语言：</span>
-                                        <span class="dyname-box">英语</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">导演：</span>
-                                        <span class="dyname-box">史蒂文·斯皮尔伯格</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">类型：</span>
-                                        <span class="dyname-box">剧情 / 历史 / 战争</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">主演：</span>
-                                        <span class="dyname-box">连姆·尼森 / 本·金斯利 / 拉尔夫·费因斯 /...</span>
-                                    </el-col>
-                                </el-row>
-                            </el-col>
-                        </el-row>
-                    </el-col>
-            <el-col :span="8" class="hb-box">
-                        <el-row :span="24">
-                            <el-col :span="4" class="img-box">
-                                <a href="">
-                                    <img :src="src" alt="">
-                                </a>
-                            </el-col>
-                            <el-col :span="18" style="padding: 5px;margin: 24px 0">
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col :span="14" class="name-box">辛德勒的名单</el-col>
-                                    <el-col :span="8" class="year-box">1993</el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="db-box">
-                                        <el-rate
-                                                v-model="value"
-                                                disabled
-                                                show-score
-                                                text-color="#ff9900"
-                                                score-template="{value}"
-                                                :max="10"
-                                        style="margin-bottom: 6px">
-                                        </el-rate>
-                                        <a :href="url">豆瓣
-                                            <span>9.4</span>
-                                        </a>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">语言：</span>
-                                        <span class="dyname-box">英语</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">导演：</span>
-                                        <span class="dyname-box">史蒂文·斯皮尔伯格</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">类型：</span>
-                                        <span class="dyname-box">剧情 / 历史 / 战争</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">主演：</span>
-                                        <span class="dyname-box">连姆·尼森 / 本·金斯利 / 拉尔夫·费因斯 /...</span>
-                                    </el-col>
-                                </el-row>
-                            </el-col>
-                        </el-row>
-                    </el-col>
-            <el-col :span="8" class="hb-box">
-                        <el-row :span="24">
-                            <el-col :span="4" class="img-box">
-                                <a href="">
-                                    <img :src="src" alt="">
-                                </a>
-                            </el-col>
-                            <el-col :span="18" style="padding: 5px;margin: 24px 0">
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col :span="14" class="name-box">辛德勒的名单</el-col>
-                                    <el-col :span="8" class="year-box">1993</el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="db-box">
-                                        <el-rate
-                                                v-model="value"
-                                                disabled
-                                                show-score
-                                                text-color="#ff9900"
-                                                score-template="{value}"
-                                                :max="10"
-                                        style="margin-bottom: 6px">
-                                        </el-rate>
-                                        <a :href="url">豆瓣
-                                            <span>9.4</span>
-                                        </a>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">语言：</span>
-                                        <span class="dyname-box">英语</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">导演：</span>
-                                        <span class="dyname-box">史蒂文·斯皮尔伯格</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">类型：</span>
-                                        <span class="dyname-box">剧情 / 历史 / 战争</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">主演：</span>
-                                        <span class="dyname-box">连姆·尼森 / 本·金斯利 / 拉尔夫·费因斯 /...</span>
-                                    </el-col>
-                                </el-row>
-                            </el-col>
-                        </el-row>
-                    </el-col>
-            <el-col :span="8" class="hb-box">
-                        <el-row :span="24">
-                            <el-col :span="4" class="img-box">
-                                <a href="">
-                                    <img :src="src" alt="">
-                                </a>
-                            </el-col>
-                            <el-col :span="18" style="padding: 5px;margin: 24px 0">
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col :span="14" class="name-box">辛德勒的名单</el-col>
-                                    <el-col :span="8" class="year-box">1993</el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="db-box">
-                                        <el-rate
-                                                v-model="value"
-                                                disabled
-                                                show-score
-                                                text-color="#ff9900"
-                                                score-template="{value}"
-                                                :max="10"
-                                        style="margin-bottom: 6px">
-                                        </el-rate>
-                                        <a :href="url">豆瓣
-                                            <span>9.4</span>
-                                        </a>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">语言：</span>
-                                        <span class="dyname-box">英语</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">导演：</span>
-                                        <span class="dyname-box">史蒂文·斯皮尔伯格</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">类型：</span>
-                                        <span class="dyname-box">剧情 / 历史 / 战争</span>
-                                    </el-col>
-                                </el-row>
-                                <el-row :span="24" style="margin-bottom: 6px">
-                                    <el-col class="dyy-box">
-                                        <span class="dy-box">主演：</span>
-                                        <span class="dyname-box">连姆·尼森 / 本·金斯利 / 拉尔夫·费因斯 /...</span>
-                                    </el-col>
-                                </el-row>
-                            </el-col>
-                        </el-row>
-                    </el-col>
-        </el-row>
+                    <el-pagination
+                            @size-change="handleSizeChange"
+                            @current-change="handleCurrentChange"
+                            :current-page.sync="currentPage"
+                            :page-sizes="[10, 20, 30, 40]"
+                            :page-size="pageSize"
+                            layout="sizes, prev, pager, next"
+                            :total="total"
+                            background
+                            style="height: 40px">
+                    </el-pagination>
+                </el-col>
+
+
+            </el-col>
+        </el-container>
+
     </div>
 </template>
 
@@ -450,20 +80,38 @@
     // import HelloWorld from '@/components/HelloWorld.vue'
 
     export default {
-        name: 'classify',
+        name: 'intelligent',
+        props:['mySqlData','total','currentPage','pageSize'],
         components: {
             // HelloWorld
         },
         data(){
             return {
-                src:'http://dianying.fm/media/poster/129/1295124.jpg',
-                url:'http://movie.douban.com/subject/1295124/',
-                value:9.4,
+                activeIndex: '1',
+                // src:'http://dianying.fm/media/poster/213/2131459.jpg',
+                // url: 'http://movie.douban.com/subject/2131459/',
+                value:9.3,
+
             }
         },
         methods: {
+            handleSelect() {
+            },
+            getImages( _url ){
+                if( _url !== undefined ){
+                    let _u = _url.substring( 7 );
+                    return 'https://images.weserv.nl/?url=' + _u;
+                }
+            },
+            handleSizeChange() {
 
-        }
+            },
+            handleCurrentChange(val){
+                this.$emit("currentPage",val)
+                // alert(val)
+                // this.currentPage = val;
+            },
+        },
     }
 </script>
 <style scoped>
@@ -511,7 +159,7 @@
         text-align: left;
     }
     .year-box{
-        margin-top: 16px;
+        margin-top: 10px;
         font-size: 16px;
         text-align: left;
         color: #888888;
@@ -535,5 +183,4 @@
     .dyname-box{
         color: #888888;
     }
-
 </style>

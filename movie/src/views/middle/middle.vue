@@ -39,12 +39,30 @@
         },
         data(){
             return {
+                mysqlData:[],
+                total:100,
+                currentPage:1,
+                pageSize:10,
             }
         },
         methods: {
             handleSelect() {
+            },
+            successz(val){
+                this.currentPage=val;
+                this.pageSize=10;
+                this.total=100;
             }
-        }
+        },
+        mounted(){
+            // let data = {'mold':'动作'};
+            // this.$axios.post('/api/classfiy',data).then((data)=>{
+            //     // alert(data.data.data[0].score);
+            //     this.mysqlData = data.data.data
+            // }).catch((error)=>{
+            //     alert(error)
+            // })
+        },
     }
 </script>
 <style scoped>

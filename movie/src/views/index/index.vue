@@ -122,11 +122,10 @@
                 this.currentPage=val;
                 this.pageSize=10;
                 this.total=200;
-                // alert(val)
             }
         },
         mounted(){
-            this.$axios.get('/api/information').then((data)=>{
+            this.$axios.get('/api/information',localStorage.token).then((data)=>{
                 // alert(data.data.data[0].score);
                 this.mysqlData = data.data.data
             }).catch((error)=>{

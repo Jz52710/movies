@@ -106,7 +106,7 @@
         mounted(){
             this.$axios.get('/api/hot').then((data)=>{
                 // alert(data.data.data);
-                this.mysqlData = data.data.data
+                this.mysqlData = data.data.data;
             }).catch((error)=>{
                 alert(error)
             })

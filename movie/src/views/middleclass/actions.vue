@@ -3,7 +3,7 @@
         <el-container class="container-box">
             <el-col :span="24" class="zhi-box">
                 <el-col :span="24" class="zhong-box">
-                    <el-col :span="8" class="hb-box" v-for="(item,index) in mySqlData" :key="index">
+                    <el-col :span="8" class="hb-box" v-for="(item,index) in mysqlData" :key="index">
                         <el-row :span="24">
                             <el-col :span="4" class="img-box">
                                 <a :href="item.official">
@@ -55,17 +55,6 @@
                             </el-col>
                         </el-row>
                     </el-col>
-                    <el-pagination
-                            @size-change="handleSizeChange"
-                            @current-change="handleCurrentChange"
-                            :current-page.sync="currentPage"
-                            :page-sizes="[10, 20, 30, 40]"
-                            :page-size="pageSize"
-                            layout="sizes, prev, pager, next"
-                            :total="total"
-                            background
-                            style="height: 40px">
-                    </el-pagination>
                 </el-col>
 
 
@@ -81,7 +70,6 @@
 
     export default {
         name: 'intelligent',
-        props:['mySqlData','total','currentPage','pageSize'],
         components: {
             // HelloWorld
         },
@@ -91,6 +79,7 @@
                 // src:'http://dianying.fm/media/poster/213/2131459.jpg',
                 // url: 'http://movie.douban.com/subject/2131459/',
                 value:9.3,
+                mysqlData:[],
 
             }
         },
@@ -111,6 +100,15 @@
                 // alert(val)
                 // this.currentPage = val;
             },
+        },
+        mounted(){
+            let data = {mold:'动作'};
+            this.$axios.post('/api/sess',data).then((data)=>{
+                // alert(data.data.data[0].score);
+                this.mysqlData = data.data.data
+            }).catch((error)=>{
+                alert(error)
+            })
         },
     }
 </script>

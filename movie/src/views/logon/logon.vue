@@ -6,7 +6,7 @@
                 <span>爱电影</span>
             </el-col>
         </el-row>
-<!--        登录-->
+        <!--        登录-->
         <el-card class="login-right">
             <el-row :span="24" style="padding: 30px 30px 20px 30px">
                 <p>注册</p>
@@ -78,11 +78,30 @@
             onSubmit(formName){
                 this.$refs[formName].validate((valid) => {
                     if (valid) {
-                        this.$message({
-                            message: '注册成功',
-                            type: 'success',
-                        });
-                        this.$router.push({name:"index"});
+                        this.$axios({
+                            method:'post',
+                            url:'api/logon',
+                            data:{
+                                username:this.ruleForm.username,
+                                password:this.ruleForm.password
+                            }
+                        }).then((rep)=>{
+                            if(rep.data.msg==='yes'){
+                                this.$message({
+                                    message: '注册成功',
+                                    type: 'success',
+                                });
+                                // localStorage.token = rep.data.token;
+                                this.$router.push({name:"login"});
+                            }else{
+                                this.$message.error("注册失败")
+                            }
+                        })
+                        // this.$message({
+                        //     message: '注册成功',
+                        //     type: 'success',
+                        // });
+                        // this.$router.push({name:"login"});
                     } else {
                         this.$message.error('注册失败');
                         return false;

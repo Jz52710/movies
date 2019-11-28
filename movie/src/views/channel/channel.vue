@@ -140,6 +140,7 @@
         data(){
             return {
                 activeIndex:'1',
+                mySqlData:[],
             }
         },
         methods: {
@@ -244,6 +245,7 @@
         font-size: 26px;
         color: white;
         line-height: 182px;
+        text-align: center;
     }
     .war-box img{
         width: 100%;
