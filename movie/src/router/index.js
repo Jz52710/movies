@@ -186,6 +186,11 @@ const routes = [
             component:() =>import('../views/middleclass/records.vue')
           },
         ]
+  },
+  {
+    path:'/collection',
+    name:'collection',
+    component:() => import('../views/collect/collect.vue'),
   }
 ];
 

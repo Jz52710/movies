@@ -15,7 +15,10 @@
                                     <a :href="item.details">
                                     <el-col :span="14" class="name-box" v-text="item.mname" style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;"></el-col>
                                         </a>
-                                    <el-col :span="8" class="year-box" v-text="item.years"></el-col>
+                                    <el-col :span="6" class="year-box" v-text="item.years"></el-col>
+                                    <div @click="point(item.id)">
+                                        <el-col :span="2" class="year-box el-icon-star-off yr-box" style="text-align: right;cursor: pointer">想看</el-col>
+                                    </div>
                                 </el-row>
                                 <el-row :span="24" style="margin-bottom: 6px">
                                     <el-col class="db-box">
@@ -110,6 +113,14 @@
                 this.$emit("currentPage",val)
                 // alert(val)
                 // this.currentPage = val;
+            },
+            point(val){
+                let data = {'id':val};
+                this.$axios.post('/api/collection',data).then(()=>{
+                    this.$message.success('已添加到想看');
+                }).catch(function (error) {
+                    alert(error)
+                });
             },
         },
     }

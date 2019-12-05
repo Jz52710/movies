@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc31a03a-ed02-4922-becd-579e9e5d1542" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/movie/src/views/collect/collect.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieBackground/MovieBackground/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MovieBackground/MovieBackground/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/movie/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/movie/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/src/assets/lb3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/assets/lb3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/src/assets/lb4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/assets/lb4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie/src/components/header/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/components/header/header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/src/views/channel/channel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/views/channel/channel.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/src/views/classify/classify.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/views/classify/classify.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie/src/views/filmname/action.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/views/filmname/action.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie/src/views/filmname/animation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/views/filmname/animation.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie/src/views/filmname/comedy.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/views/filmname/comedy.vue" afterDir="false" />
@@ -28,11 +23,7 @@
       <change beforePath="$PROJECT_DIR$/movie/src/views/filmname/suspense.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/views/filmname/suspense.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie/src/views/filmname/thriller.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/views/filmname/thriller.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie/src/views/filmname/war.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/views/filmname/war.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/src/views/hot/hot.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/views/hot/hot.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/src/views/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/views/index/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/src/views/login/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/views/login/login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/src/views/logon/logon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/views/logon/logon.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/src/views/middle/middle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/views/middle/middle.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/src/views/intelligent/intelligent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/views/intelligent/intelligent.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,46 +52,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MovieBackground/MovieBackgrounds/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2943">
-              <caret line="189" column="56" lean-forward="true" selection-start-line="189" selection-start-column="56" selection-end-line="189" selection-end-column="56" />
+            <state relative-caret-position="266">
+              <caret line="41" column="50" lean-forward="true" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/movie/src/components/header/header.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="109" column="30" lean-forward="true" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
-              <folding>
-                <element signature="n#el-menu#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#el-col#0;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#el-drawer#0;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#style#0;n#el-row#0;n#el-drawer#0;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#el-col#0;n#el-row#0;n#el-drawer#0;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#0;n#el-col#0;n#el-row#0;n#el-drawer#0;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#el-drawer#0;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#el-drawer#0;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-col#0;n#a#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#el-drawer#0;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#el-drawer#0;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#el-drawer#0;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#el-drawer#0;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#el-drawer#0;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#el-drawer#0;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#el-drawer#0;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#el-drawer#0;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#el-drawer#0;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-row#0;n#el-drawer#0;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#el-col#1;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#style#0;n#el-col#2;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#el-col#2;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,6 +70,10 @@
     <findStrings>
       <find>el-main</find>
       <find>box-card</find>
+      <find>intelligent-box</find>
+      <find>yr-box</find>
+      <find>zhi-box</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,34 +82,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/climbmovies/climbmovies/settings.py" />
-        <option value="$PROJECT_DIR$/climbmovies/climbmovies/items.py" />
-        <option value="$PROJECT_DIR$/climbmovies/climbmovies/pipelines.py" />
         <option value="$PROJECT_DIR$/climbmovies/climbmovies/spiders/doubanurls.py" />
         <option value="$PROJECT_DIR$/movie/public/index.html" />
         <option value="$PROJECT_DIR$/movie/vue.config.js" />
-        <option value="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/admin.py" />
         <option value="$PROJECT_DIR$/moviestop/moviestop/settings.py" />
         <option value="$PROJECT_DIR$/moviestop/moviestop/items.py" />
         <option value="$PROJECT_DIR$/moviestop/moviestop/pipelines.py" />
         <option value="$PROJECT_DIR$/moviestop/moviestop/spiders/movietop.py" />
-        <option value="$PROJECT_DIR$/movie/src/views/intelligent/intelligent.vue" />
         <option value="$PROJECT_DIR$/movie/src/views/ranking/ranking.vue" />
-        <option value="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/models.py" />
-        <option value="$PROJECT_DIR$/movie/src/views/filmname/action.vue" />
         <option value="$PROJECT_DIR$/movie/src/views/classify/classify.vue" />
-        <option value="$PROJECT_DIR$/movie/src/views/filmname/war.vue" />
-        <option value="$PROJECT_DIR$/movie/src/views/filmname/animation.vue" />
-        <option value="$PROJECT_DIR$/movie/src/views/filmname/comedy.vue" />
-        <option value="$PROJECT_DIR$/movie/src/views/filmname/crime.vue" />
-        <option value="$PROJECT_DIR$/movie/src/views/filmname/inspiration.vue" />
-        <option value="$PROJECT_DIR$/movie/src/views/filmname/love.vue" />
-        <option value="$PROJECT_DIR$/movie/src/views/filmname/record.vue" />
-        <option value="$PROJECT_DIR$/movie/src/views/filmname/science.vue" />
-        <option value="$PROJECT_DIR$/movie/src/views/filmname/suspense.vue" />
-        <option value="$PROJECT_DIR$/movie/src/views/filmname/thriller.vue" />
         <option value="$PROJECT_DIR$/movie/src/views/logon/logon.vue" />
-        <option value="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/serializers.py" />
         <option value="$PROJECT_DIR$/MovieBackground/MovieBackground/settings.py" />
         <option value="$PROJECT_DIR$/movie/src/views/hot/hot.vue" />
         <option value="$PROJECT_DIR$/movie/src/views/middle/middle.vue" />
@@ -163,14 +107,32 @@
         <option value="$PROJECT_DIR$/movie/src/views/middleclass/thrillers.vue" />
         <option value="$PROJECT_DIR$/movie/src/views/middleclass/wars.vue" />
         <option value="$PROJECT_DIR$/movie/src/store/index.js" />
-        <option value="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/urls.py" />
         <option value="$PROJECT_DIR$/movie/src/views/index/index.vue" />
-        <option value="$PROJECT_DIR$/movie/src/router/index.js" />
         <option value="$PROJECT_DIR$/movie/src/views/channel/channel.vue" />
-        <option value="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/views.py" />
         <option value="$PROJECT_DIR$/movie/src/views/login/login.vue" />
         <option value="$PROJECT_DIR$/movie/src/main.js" />
+        <option value="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/apps.py" />
+        <option value="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/__init__.py" />
+        <option value="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/admin.py" />
+        <option value="$PROJECT_DIR$/movie/src/router/index.js" />
         <option value="$PROJECT_DIR$/movie/src/components/header/header.vue" />
+        <option value="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/urls.py" />
+        <option value="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/models.py" />
+        <option value="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/serializers.py" />
+        <option value="$PROJECT_DIR$/movie/src/views/intelligent/intelligent.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/action.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/comedy.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/crime.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/animation.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/inspiration.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/love.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/record.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/science.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/suspense.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/thriller.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/filmname/war.vue" />
+        <option value="$PROJECT_DIR$/movie/src/views/collect/collect.vue" />
+        <option value="$PROJECT_DIR$/MovieBackground/MovieBackgrounds/views.py" />
       </list>
     </option>
   </component>
@@ -209,44 +171,6 @@
             <path>
               <item name="movies" type="b2602c69:ProjectViewProjectNode" />
               <item name="movies" type="462c0819:PsiDirectoryNode" />
-              <item name="movie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movies" type="462c0819:PsiDirectoryNode" />
-              <item name="movie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movies" type="462c0819:PsiDirectoryNode" />
-              <item name="movie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movies" type="462c0819:PsiDirectoryNode" />
-              <item name="movie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movies" type="462c0819:PsiDirectoryNode" />
-              <item name="movie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="intelligent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movies" type="462c0819:PsiDirectoryNode" />
               <item name="MovieBackground" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,6 +204,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -326,16 +251,26 @@
       <workItem from="1574859550891" duration="5738000" />
       <workItem from="1574870290301" duration="661000" />
       <workItem from="1574902841950" duration="3352000" />
+      <workItem from="1574922029199" duration="8391000" />
+      <workItem from="1574945798489" duration="777000" />
+      <workItem from="1574987558974" duration="17138000" />
+      <workItem from="1575082080153" duration="9931000" />
+      <workItem from="1575107070521" duration="163000" />
+      <workItem from="1575180000647" duration="7223000" />
+      <workItem from="1575527390923" duration="832000" />
+      <workItem from="1575528307074" duration="40000" />
+      <workItem from="1575528675286" duration="452000" />
+      <workItem from="1575539955503" duration="1524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242132000" />
+    <option name="totallyTimeSpent" value="288603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22050938" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25201073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -349,7 +284,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31303117" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31161472" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -358,7 +293,7 @@
       <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20174263" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23190348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -372,7 +307,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31541726" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31161472" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -385,33 +320,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/moviestop/moviestop/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
-          <folding>
-            <element signature="e#24#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moviestop/moviestop/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moviestop/moviestop/spiders/movietop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movie/vue.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -435,213 +343,6 @@
             <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/comedy.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="186" selection-start-line="186" selection-end-line="186" />
-          <folding>
-            <element signature="n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/crime.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="186" selection-start-line="186" selection-end-line="186" />
-          <folding>
-            <element signature="n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/inspiration.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="186" selection-start-line="186" selection-end-line="186" />
-          <folding>
-            <element signature="n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/love.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="186" selection-start-line="186" selection-end-line="186" />
-          <folding>
-            <element signature="n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/record.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="186" selection-start-line="186" selection-end-line="186" />
-          <folding>
-            <element signature="n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/science.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="186" selection-start-line="186" selection-end-line="186" />
-          <folding>
-            <element signature="n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/suspense.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="186" selection-start-line="186" selection-end-line="186" />
-          <folding>
-            <element signature="n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/thriller.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="165" column="5" lean-forward="true" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
-          <folding>
-            <element signature="n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/war.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1786">
-          <caret line="167" column="25" lean-forward="true" selection-start-line="167" selection-start-column="25" selection-end-line="167" selection-end-column="25" />
-          <folding>
-            <element signature="n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
             <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
@@ -682,23 +383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MovieBackground/MovieBackground/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MovieBackground/MovieBackgrounds/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movie/src/views/logon/logon.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
@@ -721,52 +405,6 @@
             <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/action.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/animation.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="186" selection-start-line="186" selection-end-line="186" />
-          <folding>
-            <element signature="n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
             <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
@@ -911,75 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movie/src/views/classify/classify.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#el-breadcrumb#0;n#el-col#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#el-breadcrumb#0;n#el-col#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#el-breadcrumb#0;n#el-col#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#el-breadcrumb#0;n#el-col#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#4;n#el-breadcrumb#0;n#el-col#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#5;n#el-breadcrumb#0;n#el-col#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#6;n#el-breadcrumb#0;n#el-col#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#7;n#el-breadcrumb#0;n#el-col#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#8;n#el-breadcrumb#0;n#el-col#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#9;n#el-breadcrumb#0;n#el-col#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MovieBackground/MovieBackgrounds/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/src/views/channel/channel.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="243" column="23" selection-start-line="243" selection-start-column="23" selection-end-line="243" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#el-header#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#1;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#2;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#3;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#4;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#5;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#6;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#7;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#8;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#9;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#10;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#span#1;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movie/src/views/index/index.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1014,90 +583,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movie/src/views/intelligent/intelligent.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="109" column="39" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="39" />
-          <folding>
-            <element signature="n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/src/views/login/login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="n#style#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#0;n#el-card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#el-row#0;n#el-card#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#el-row#1;n#el-card#0;n#div#0;n#template#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MovieBackground/MovieBackgrounds/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MovieBackground/MovieBackgrounds/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MovieBackground/MovieBackgrounds/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2943">
-          <caret line="189" column="56" lean-forward="true" selection-start-line="189" selection-start-column="56" selection-end-line="189" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movie/src/views/About.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/movie/src/views/Home.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/MovieBackground/MovieBackgrounds/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MovieBackground/MovieBackgrounds/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MovieBackground/MovieBackgrounds/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/channel/channel.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-header#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#1;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#2;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#3;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#4;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#5;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#6;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#7;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#8;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#9;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#10;n#el-row#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#span#1;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#el-row#0;n#el-footer#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="190" column="21" selection-start-line="190" selection-start-column="11" selection-end-line="190" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#3409#5100#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/classify/classify.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="197" column="10" lean-forward="true" selection-start-line="197" selection-start-column="10" selection-end-line="197" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#el-breadcrumb#0;n#el-col#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#el-breadcrumb#0;n#el-col#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#el-breadcrumb#0;n#el-col#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#el-breadcrumb#0;n#el-col#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#el-breadcrumb#0;n#el-col#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#5;n#el-breadcrumb#0;n#el-col#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#6;n#el-breadcrumb#0;n#el-col#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#7;n#el-breadcrumb#0;n#el-col#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#8;n#el-breadcrumb#0;n#el-col#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#9;n#el-breadcrumb#0;n#el-col#0;n#el-row#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MovieBackground/MovieBackgrounds/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/login/login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-row#0;n#el-card#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-row#1;n#el-card#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="e#5438#6726#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MovieBackground/MovieBackgrounds/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/movie/src/components/header/header.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="109" column="30" lean-forward="true" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
+        <state relative-caret-position="175">
+          <caret line="153" column="21" lean-forward="true" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
           <folding>
             <element signature="n#el-menu#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
             <element signature="n#el-col#0;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
@@ -1121,6 +734,349 @@
             <element signature="n#el-col#1;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" />
             <element signature="n#style#0;n#el-col#2;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#el-col#2;n#el-col#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/animation.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="81" selection-start-line="17" selection-start-column="81" selection-end-line="17" selection-end-column="81" />
+          <folding>
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#div#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/inspiration.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="116" column="23" lean-forward="true" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#div#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/action.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="65" lean-forward="true" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#div#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/comedy.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#div#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/war.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#div#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/thriller.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#div#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/suspense.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="84" lean-forward="true" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
+          <folding>
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#div#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/science.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#div#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/record.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#div#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/love.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="120" column="43" lean-forward="true" selection-start-line="120" selection-start-column="43" selection-end-line="120" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#div#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/filmname/crime.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="78" lean-forward="true" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+          <folding>
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#div#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/intelligent/intelligent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="60" lean-forward="true" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#div#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-pagination#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/views/collect/collect.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="118" column="29" selection-start-line="118" selection-start-column="29" selection-end-line="118" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-header#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-col#0;n#el-container#0;n#div#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#a#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#div#0;n#el-row#0;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#3;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#4;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#el-col#1;n#el-col#0;n#el-row#5;n#el-col#1;n#el-row#0;n#el-col#0;n#el-col#0;n#el-col#0;n#el-container#0;n#div#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-footer#0;n#el-container#0;n#div#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-row#0;n#el-footer#0;n#el-container#0;n#div#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#el-row#0;n#el-footer#0;n#el-container#0;n#div#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#el-row#0;n#el-footer#0;n#el-container#0;n#div#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#span#1;n#el-row#0;n#el-footer#0;n#el-container#0;n#div#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#el-row#0;n#el-footer#0;n#el-container#0;n#div#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MovieBackground/MovieBackground/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MovieBackground/MovieBackgrounds/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MovieBackground/MovieBackgrounds/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="41" column="50" lean-forward="true" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

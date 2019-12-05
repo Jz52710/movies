@@ -27,7 +27,7 @@
                     <el-drawer
                             title="搜索结果"
                             :visible.sync="drawer"
-                            >
+                    >
                         <!--信息-->
                         <el-row :span="24" style="overflow-y: hidden;">
                             <el-col :span="8" class="hb-box" v-for="(item,index) in mySQLData" :key="index">
@@ -101,8 +101,10 @@
                                     <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png"></el-avatar>
                                 </div>
                                 <el-dropdown-menu slot="dropdown">
-                                    <div @click="logout">
+                                    <div @click="think">
                                         <el-dropdown-item icon="el-icon-star-off">想看</el-dropdown-item>
+                                    </div>
+                                    <div @click="logout">
                                         <el-dropdown-item icon="el-icon-ship">退出登录</el-dropdown-item>
                                     </div>
                                 </el-dropdown-menu>
@@ -136,9 +138,12 @@
         methods: {
             handleSelect() {
             },
+            think(){
+              this.$router.push('/collection');
+            },
             logout(){
-                this.$router.push("/login")
-                // alert(123)
+                this.$router.push("/login");
+                window.localStorage.removeItem('token')
             },
             getImages( _url ){
                 if( _url !== undefined ){

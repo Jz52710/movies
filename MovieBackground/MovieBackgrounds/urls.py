@@ -1,6 +1,6 @@
 from django.urls import path
 from . import views
-from .views import MovieInformations,MovieTops,MovieClassfiy,MovieHot,Logon,Login,MovieSess,MovieSearch
+from .views import MovieInformations,MovieTops,MovieClassfiy,MovieHot,Logon,Login,MovieSess,MovieSearch,MovieColls
 
 
 urlpatterns=[
@@ -13,4 +13,5 @@ urlpatterns=[
     path('api/login',Login.as_view()),
     path('api/sess',MovieSess.as_view()),
     path('api/search',MovieSearch.as_view()),
+    path('api/collection',MovieColls.as_view()),
 ]

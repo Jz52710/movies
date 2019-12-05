@@ -1,13 +1,13 @@
 from django.shortcuts import render
 from django.http import HttpResponse,JsonResponse
 from rest_framework.views import APIView,status
-from .models import UserAdmin,MovieInformation,MovieTop
+from .models import UserAdmin,MovieInformation,MovieTop,MovieCollection
 from rest_framework.renderers import JSONRenderer
 from rest_framework.response import Response
-from .serializers import MovieSerializer,MovieTopsSerializer,MovieUser
-import requests,json
+from .serializers import MovieSerializer,MovieTopsSerializer,MovieUser,MovieColl
+import requests,json,time
 import pymysql
-from django.contrib.auth import authenticate,login
+from django.contrib.auth import authenticate,login,logout
 
 from rest_framework.authtoken.models import Token
 
@@ -132,7 +132,7 @@ class Logon(APIView):
         cursor = connect.cursor()
         try:
             cursor.execute(
-                """select * from moviebackgrounds_useradmin where username = %s""",
+                """select * from auth_user where username = %s""",
                 request.data['username'])
             # 去重
             repetition = cursor.fetchone()
@@ -140,9 +140,17 @@ class Logon(APIView):
                 pass
             else:
                 cursor.execute(
-                    "INSERT INTO moviebackgrounds_useradmin(username,password) VALUE (%s,%s)",
-                    (request.data['username'],
+                    "INSERT INTO auth_user(password,is_superuser,username,first_name,last_name,email,is_staff,is_active,date_joined) VALUE (%s,%s,%s,%s,%s,%s,%s,%s,%s)",
+                    (
                      request.data['password'],
+                     0,
+                     request.data['username'],
+                        'jj',
+                        'zz',
+                        '864278318@qq.com',
+                        1,
+                        1,
+                        time.strftime('%Y-%m-%d %X')
                      ))
                 connect.commit()
         except Exception as error:
@@ -162,6 +170,7 @@ class Login(APIView):
             return Response({'msg': 'ok', 'token': token.key})
         else:
             return Response({'msg': 'no'})
+
 
 #频道
 class MovieSess(APIView):
@@ -188,3 +197,52 @@ class MovieSearch(APIView):
             return Response({'code': 200,'msg':'ok', 'data': se.data})
         else:
             return Response({'msg':'no','data':'暂无此电影'})
+
+#收藏
+class MovieColls(APIView):
+    renderer_classes = [JSONRenderer]
+    authentication_classes = [TokenAuth]
+    def get(self,request,*args,**kwargs):
+        # request.session.get('_auth_user_id')#获取所登录的id
+        movies = MovieCollection.objects.filter(uid=request.session.get('_auth_user_id'))
+        se = MovieColl(movies, many=True)
+        # print(se.data)
+        return Response({'code': 200, 'data': se.data})
+
+    def post(self,request,*args,**kwargs):
+        movies = MovieCollection.objects.filter(id=request.data['id'])
+        se = MovieColl(movies, many=True)
+        print(request.data['id'])
+        connect = pymysql.connect(host='127.0.0.1', user='root', password='jz52710', db='movies', port=3306,
+                                  charset='utf8', use_unicode=True, autocommit=True)
+        cursor = connect.cursor()
+        try:
+            cursor.execute(
+                "select * from moviebackgrounds_moviecollection where mid_id = %s",
+                request.data['id'])
+            # 去重
+            repetition = cursor.fetchone()
+            if repetition is not None:
+                pass
+            else:
+                cursor.execute(
+                    "INSERT INTO moviebackgrounds_moviecollection(mid_id,uid_id) VALUE (%s,%s)",
+                    (
+                        request.data['id'],
+                        request.session.get('_auth_user_id'),
+                    ))
+                connect.commit()
+        except Exception as error:
+            print(error)
+        cursor.close()  # 关游标
+        connect.close()  # 关链接
+        # print(se.data)
+        return Response({'code':200,'data':se.data})
+
+    def delete(self,request,*args,**kwargs):
+        movies = MovieCollection.objects.filter(mid=request.data['mid'])
+        # 验证
+        if movies:
+            movies.delete()
+            return Response({'msg': 'ok'}, status=status.HTTP_200_OK)
+        return Response(status=status.HTTP_400_BAD_REQUEST)
